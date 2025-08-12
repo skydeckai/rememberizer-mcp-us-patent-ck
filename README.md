@@ -1,8 +1,8 @@
 # Rememberizer MCP Server for Common Knowledge
 
-{{CK_DESCRIPTION}}
+This is the CK for US patent data
 
-Please note that `{{REPO_NAME}}` is currently in development and the functionality may be subject to change.
+Please note that `rememberizer-mcp-us-patent-ck` is currently in development and the functionality may be subject to change.
 
 ## Components
 
@@ -65,7 +65,7 @@ The server provides access to two types of resources: Documents or Slack discuss
 
 ### Via SkyDeck AI Helper App
 
-If you have SkyDeck AI Helper app installed, you can search for "Rememberizer" and install the {{REPO_NAME}}.
+If you have SkyDeck AI Helper app installed, you can search for "Rememberizer" and install the rememberizer-mcp-us-patent-ck.
 
 ![SkyDeck AI Helper](https://docs.rememberizer.ai/~gitbook/image?url=https%3A%2F%2F2952947711-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FyNqpTh7Mh66N0RnO0k24%252Fuploads%252FYyy7b70uYnO8Gm5V7spp%252Fimage.png%3Falt%3Dmedia%26token%3D008d56ea-44f8-482a-a889-f7d933f1d734&width=768&dpr=2&quality=100&sign=661e8789&sv=2)
 
@@ -79,7 +79,7 @@ Add this to your `claude_desktop_config.json`:
 "mcpServers": {
   "rememberizer": {
       "command": "uvx",
-      "args": ["{{REPO_NAME}}"]
+      "args": ["rememberizer-mcp-us-patent-ck"]
     },
 }
 ```
