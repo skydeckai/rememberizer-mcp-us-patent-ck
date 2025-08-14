@@ -1,3 +1,5 @@
+[![MSeeP.ai Security Assessment Badge](https://mseep.net/pr/skydeckai-rememberizer-mcp-us-patent-ck-badge.png)](https://mseep.ai/app/skydeckai-rememberizer-mcp-us-patent-ck)
+
 # Rememberizer MCP Server for Common Knowledge
 
 This is the CK for US patent data
