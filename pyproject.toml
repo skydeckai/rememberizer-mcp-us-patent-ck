@@ -1,7 +1,7 @@
 [project]
-name = "{{REPO_NAME}}"
+name = "rememberizer-mcp-us-patent-ck"
 version = "0.1.4"
-description = "{{CK_DESCRIPTION}}"
+description = "This is the CK for US patent data"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -26,7 +26,7 @@ dev = [
 ]
 
 [project.scripts]
-{{REPO_NAME}} = "mcp_server_rememberizer:main"
+rememberizer-mcp-us-patent-ck = "mcp_server_rememberizer:main"
 
 # ==== isort ====
 [tool.isort]
