@@ -1,7 +1,7 @@
 [project]
-name = "{{REPO_NAME}}"
+name = "rememberizer-mcp-us-patent-ck"
 version = "0.1.4"
-description = "{{CK_DESCRIPTION}}"
+description = "This Common Knowledge contains US patent data sourced from the Google Patents Public Datasets. The dataset includes bibliographic information and full-text data for US patents spanning from January 1, 2000 through November 2024, provided by IFI CLAIMS Patent Services."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -26,7 +26,7 @@ dev = [
 ]
 
 [project.scripts]
-{{REPO_NAME}} = "mcp_server_rememberizer:main"
+rememberizer-mcp-us-patent-ck = "mcp_server_rememberizer:main"
 
 # ==== isort ====
 [tool.isort]
