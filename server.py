@@ -7,7 +7,7 @@ import mcp.types as types
 from mcp.server import Server
 from pydantic import AnyUrl
 
-from .utils import (
+from utils import (
     ACCOUNT_INFORMATION_PATH,
     AGENTIC_SEARCH_PATH,
     APP_NAME,
