@@ -26,9 +26,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 REMEMBERIZER_BASE_URL = "https://api.rememberizer.ai/api/v1/"
-REMEMBERIZER_CK_ID = "{{CK_ID}}"
+REMEMBERIZER_CK_ID = "329"
 
-TOOL_CONTEXT_SUFFIX = "\n**Data context**: {{CK_DESCRIPTION}}"
+TOOL_CONTEXT_SUFFIX = "\n**Data context**: This Common Knowledge contains US patent data sourced from the Google Patents Public Datasets. The dataset includes bibliographic information and full-text data for US patents spanning from January 1, 2000 through November 2024, provided by IFI CLAIMS Patent Services."
 
 client = APIClient(base_url=REMEMBERIZER_BASE_URL, ck_id=REMEMBERIZER_CK_ID)
 
